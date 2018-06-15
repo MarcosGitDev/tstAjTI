@@ -7,6 +7,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.AjudaTI.Website", "Fte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.AjudaTI.Website.Tests", "Ftec.AjudaTI.Website.Tests\Ftec.AjudaTI.Website.Tests.csproj", "{75D0B8CA-6FDC-49FB-84BC-42CE4AA413DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.AjudaTI.Dominio", "..\Ftec.AjudaTI.Dominio\Ftec.AjudaTI.Dominio\Ftec.AjudaTI.Dominio.csproj", "{0789C270-902F-4DFA-AD99-78E35B841571}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Dominio", "5 - Dominio", "{31F9E46E-00E9-498F-AA47-0FE44C88CAAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentação", "1 - Apresentação", "{2F5A5161-5271-4348-A361-D6F5A1AEDC30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Serviços", "2 - Serviços", "{238B7729-A0FD-47B3-9014-EBB39EB1D175}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Aplicação", "3 - Aplicação", "{1E09347F-0977-4C87-A6AA-DC6F639A00A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Repositório", "4 - Repositório", "{B47D1B86-428E-4CA6-B225-9632ECF7EE35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.AjudaTI.Serviços", "Ftec.AjudaTI.Serviços\Ftec.AjudaTI.Serviços.csproj", "{BDB4951B-C84D-41B0-92E8-8A61739752F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.AjudaTI.Aplicação", "Ftec.AjudaTI.Aplicação\Ftec.AjudaTI.Aplicação.csproj", "{FA239ECD-49E6-48BA-A74A-FEDA472BC2E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.AjudaTI.Repositório", "Ftec.AjudaTI.Repositório\Ftec.AjudaTI.Repositório.csproj", "{F1BC52B9-B8A8-4725-AD5C-5C55FA73DFDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +39,32 @@ Global
 		{75D0B8CA-6FDC-49FB-84BC-42CE4AA413DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75D0B8CA-6FDC-49FB-84BC-42CE4AA413DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75D0B8CA-6FDC-49FB-84BC-42CE4AA413DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0789C270-902F-4DFA-AD99-78E35B841571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0789C270-902F-4DFA-AD99-78E35B841571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0789C270-902F-4DFA-AD99-78E35B841571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0789C270-902F-4DFA-AD99-78E35B841571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB4951B-C84D-41B0-92E8-8A61739752F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB4951B-C84D-41B0-92E8-8A61739752F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB4951B-C84D-41B0-92E8-8A61739752F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB4951B-C84D-41B0-92E8-8A61739752F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA239ECD-49E6-48BA-A74A-FEDA472BC2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA239ECD-49E6-48BA-A74A-FEDA472BC2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA239ECD-49E6-48BA-A74A-FEDA472BC2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA239ECD-49E6-48BA-A74A-FEDA472BC2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1BC52B9-B8A8-4725-AD5C-5C55FA73DFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BC52B9-B8A8-4725-AD5C-5C55FA73DFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BC52B9-B8A8-4725-AD5C-5C55FA73DFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BC52B9-B8A8-4725-AD5C-5C55FA73DFDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04086BA6-0816-47FF-B5B5-64360F24370E} = {2F5A5161-5271-4348-A361-D6F5A1AEDC30}
+		{0789C270-902F-4DFA-AD99-78E35B841571} = {31F9E46E-00E9-498F-AA47-0FE44C88CAAA}
+		{BDB4951B-C84D-41B0-92E8-8A61739752F4} = {238B7729-A0FD-47B3-9014-EBB39EB1D175}
+		{FA239ECD-49E6-48BA-A74A-FEDA472BC2E8} = {1E09347F-0977-4C87-A6AA-DC6F639A00A7}
+		{F1BC52B9-B8A8-4725-AD5C-5C55FA73DFDA} = {B47D1B86-428E-4CA6-B225-9632ECF7EE35}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9AD97E0D-1F2A-44E9-8007-524124F65061}

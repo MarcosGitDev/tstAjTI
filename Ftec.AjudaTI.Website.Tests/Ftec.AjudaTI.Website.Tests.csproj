@@ -41,8 +41,8 @@
     <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
       <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Couchbase.NetClient, Version=2.5.10.0, Culture=neutral, PublicKeyToken=05e9c6b5a9ec94c2, processorArchitecture=MSIL">
-      <HintPath>..\packages\CouchbaseNetClient.2.5.10\lib\net45\Couchbase.NetClient.dll</HintPath>
+    <Reference Include="Couchbase.NetClient, Version=2.5.12.0, Culture=neutral, PublicKeyToken=05e9c6b5a9ec94c2, processorArchitecture=MSIL">
+      <HintPath>..\packages\CouchbaseNetClient.2.5.12\lib\net45\Couchbase.NetClient.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -107,6 +107,22 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Ftec.AjudaTI.Dominio\Ftec.AjudaTI.Dominio\Ftec.AjudaTI.Dominio.csproj">
+      <Project>{0789c270-902f-4dfa-ad99-78e35b841571}</Project>
+      <Name>Ftec.AjudaTI.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ftec.AjudaTI.Aplicação\Ftec.AjudaTI.Aplicação.csproj">
+      <Project>{fa239ecd-49e6-48ba-a74a-feda472bc2e8}</Project>
+      <Name>Ftec.AjudaTI.Aplicação</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ftec.AjudaTI.Repositório\Ftec.AjudaTI.Repositório.csproj">
+      <Project>{f1bc52b9-b8a8-4725-ad5c-5c55fa73dfda}</Project>
+      <Name>Ftec.AjudaTI.Repositório</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ftec.AjudaTI.Serviços\Ftec.AjudaTI.Serviços.csproj">
+      <Project>{bdb4951b-c84d-41b0-92e8-8a61739752f4}</Project>
+      <Name>Ftec.AjudaTI.Serviços</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Ftec.AjudaTI.Website\Ftec.AjudaTI.Website.csproj">
       <Project>{04086BA6-0816-47FF-B5B5-64360F24370E}</Project>
       <Name>Ftec.AjudaTI.Website</Name>
